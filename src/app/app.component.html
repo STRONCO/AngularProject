@@ -1,0 +1,19 @@
+<div class="body">
+
+    <app-header></app-header>
+
+    <div role="main" class="main">
+
+        <app-menu [pageName]="title"></app-menu>
+
+        <div class="container">
+            <!--This code involves all routes--> 
+            <router-outlet></router-outlet>
+
+        </div>
+    
+    </div>
+
+    <app-footer></app-footer>
+
+</div>
